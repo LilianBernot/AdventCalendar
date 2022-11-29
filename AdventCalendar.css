@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(212, 204, 202);
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+h1{
+    font-size:4em;
+    text-align:center;
+    color:rgb(60, 87, 34);
+}
+
+.bottom_text
+{
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size:1.2em;
+}
+
+#conteneur{
+    display:flex;
+    flex-wrap: wrap; /* Pour qu'ils aillent à la ligne */
+    justify-content: space-around; /* Pour qu'il y ait des espaces jolis */
+}
+
+a:link, a:visited {
+    padding: 1em; /* Pour que les côtés des cases ne soient pas collés au texte */ 
+    margin-top: 0.5em; /* Pour séparer les cases */
+    color: rgb(180, 13, 7);
+    background-color: rgba(223, 227, 230);
+
+    border: 0.1em solid rgb(255, 255, 255);
+    border-radius: 1em;
+    font-size: 2.5em;
+
+    text-align: center;
+    text-decoration: none; /* Pour ne pas souligner */
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    background-color: rgb(145, 129, 67);
+    color: rgb(255, 255, 255);
+}
