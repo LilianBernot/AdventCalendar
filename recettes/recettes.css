@@ -1,43 +1,61 @@
+@font-face {
+    font-family: 'Tahu!';
+    src: url('../Tahu!.ttf');}
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../roboto/Roboto-Bold.ttf');}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../roboto/Roboto-Regular.ttf');}
+
 body{
     background-color: rgb(212, 204, 202);
-    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
-}
-
-h1{
-    font-size:3em;
-    text-align:center;
+    font-family: 'RobotoRegular';
+    margin-left: 1em;
+    margin-right: 1em; /* Marge générale de la page */
     color:rgb(60, 87, 34);
 }
-h2{
+
+h1{ /* Titre du jour */
+    font-size:4em;
+    text-align:center;
+    color:rgb(60, 87, 34);
+    font-family: 'Tahu!';
+}
+h2 h3 h4{
+    font-family: 'RobotoBold';
+}
+h2{ /* Nom recette */
     font-size:2em;
     text-align:center;
     color:rgb(180, 13, 7);
-    text-decoration: underline;
 
     border: 0.1em solid rgb(255, 255, 255);
     border-radius: 1em;
     background-color: rgba(223, 227, 230);
 }
-h3{
+h3{ /* Ingredients */
     font-size:1.5em;
     text-decoration: underline;
 }
-h4{
+h4{ /* Preparation */
     font-size:1.5em;
-    text-align:center;
+    text-align:left;
+    text-decoration: underline;
 }
 
 .ingredients{
     color:rgb(145, 129, 67);
     float: left; 
-    width: 12em; 
+    width: 20em; 
     /* Je ne fixe pas la hauteur sinon il déborde */
     margin-left: 2em;
     padding-left: 2em;
+    padding-bottom: 0.5em;
 
     border: 0.2em solid rgb(255, 255, 255);
     border-radius: 1em;
-    background-color: rgba(223, 227, 230);
+    background-color: rgb(255, 255, 255);
 }
 
 .flottant
@@ -62,10 +80,7 @@ img{
 footer
 {
     text-align:center;
-    position: fixed;
-    bottom:0;
     width:100%;
     display:inline-block;
-    vertical-align:top;
     font-size:1em;
 }

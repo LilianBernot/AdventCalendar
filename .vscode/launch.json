@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open AdventCalendar.html",
-            "file": "c:\\Users\\lilia\\Documents\\code\\AdventCalendar\\AdventCalendar.html"
+            "file": "c:\\Users\\lilia\\Documents\\code\\AdventCalendar\\index.html"
         }
     ]
 }
