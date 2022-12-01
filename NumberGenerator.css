@@ -1,14 +1,3 @@
-body{
-    background-color: rgb(212, 204, 202);
-    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
-}
-
-h1{
-    font-size:4em;
-    text-align:center;
-    color:rgb(60, 87, 34);
-}
-
 #conteneur{
     display:flex;
     flex-wrap: wrap; /* Pour qu'ils aillent à la ligne */
@@ -33,12 +22,4 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: rgb(145, 129, 67);
     color: rgb(255, 255, 255);
-}
-
-.bottom_text
-{
-    text-align:center;
-    color:rgb(0, 0, 0);
-    font-weight: bold;
-    font-size:1.2em;
 }
