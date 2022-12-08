@@ -16,6 +16,12 @@ body{
     color:rgb(60, 87, 34);
 }
 
+p{
+    text-align: center;
+    color:black;
+    font-size: 2em;
+}
+
 h1{ /* Titre du jour */
     font-size:4em;
     text-align:center;
@@ -61,8 +67,8 @@ h4{ /* Preparation */
 .flottant
 {
     float: left; /*pour que l'image soit à gauche du texte*/
-    width: 15em;
-    height: 15em; 
+    width: 20em;
+    height: 20em;
 }
 
 img{
