@@ -12,6 +12,7 @@ for(var i= 0; i < liste.length; i++)
 
     let desiredLink = `recettes/jour_${liste[i]}.html`;
     let newLink = document.createElement('a');
+    newLink.classList.add("recipe_link"); // permet de le trouver comme unn link de recette dans le css
     newLink.setAttribute('href', desiredLink);
     let desiredText = String(liste[i]);
     newLink.innerHTML = desiredText;

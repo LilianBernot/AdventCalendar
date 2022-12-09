@@ -4,7 +4,12 @@
     justify-content: space-around; /* Pour qu'il y ait des espaces jolis */
 }
 
-a:link, a:visited {
+a:link{
+    font-size: 2.5em;
+}
+
+/* On ne sélectionne que les links de type ecette (qui affichent un chiffre) */
+a.recipe_link:link {
     padding: 1em; /* Pour que les côtés des cases ne soient pas collés au texte */ 
     margin-top: 0.5em; /* Pour séparer les cases */
     color: rgb(180, 13, 7);
@@ -18,8 +23,16 @@ a:link, a:visited {
     text-decoration: none; /* Pour ne pas souligner */
     display: inline-block;
 }
+
+a.recipe_link:visited {
+    background-color: rgb(145, 129, 67);
+    color: rgb(255, 255, 255);
+
+    border: 0.1em solid rgb(255, 255, 255);
+    border-radius: 1em;
+}
   
-a:hover, a:active {
+a.recipe_link:hover, a.recipe_link:active {
     background-color: rgb(145, 129, 67);
     color: rgb(255, 255, 255);
 }
