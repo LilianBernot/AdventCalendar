@@ -1,0 +1,12 @@
+#conteneur {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+    margin: 5%;
+}
+
+@media screen and (max-width: 400px){
+    #conteneur {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
