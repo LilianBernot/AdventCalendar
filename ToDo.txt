@@ -31,13 +31,10 @@ Recettes :
 
 19 Gratin de lentilles et carottes
 20 wok de poisson et crevettes
-21 pois cassés
+21 falafels de pois chiches
 22 haricots rouges
-23 lieu noir
-24 haricots noirs
-
-Pois cassés :
-https://www.papillesetpupilles.fr/2020/06/falafels-au-four.html/
+23 # lieu noir
+24 # haricots noirs
 
 Haricots noirs :
 https://cuisine.journaldesfemmes.fr/recette/305624-haricots-noirs-a-la-bresilienne
@@ -45,16 +42,8 @@ https://cuisine.journaldesfemmes.fr/recette/305624-haricots-noirs-a-la-bresilien
 Risottos : 
 https://www.cuisineactuelle.fr/recettes/risotto-chorizo-poulet-211549
 
-Pois chiches :
-https://www.marmiton.org/recettes/recette_semoule-aux-pois-chiches-et-a-la-tomate_37220.aspx
-
 Poissons :
-https://www.cuisineaz.com/recettes/wok-de-poisson-et-chou-chinois-97051.aspx
 https://www.cuisineaz.com/recettes/dos-de-lieu-noir-au-cookeo-109517.aspx
-
-haricots rouges : 
-https://www.cuisineaz.com/recettes/salade-de-sardine-a-la-mexicaine-79246.aspx
-
 
 Desserts : 
 https://www.lesrecettesdecaty.com/fr/recettes/desserts/pain-aux-bananes-et-lentilles/?gallery=pp-9722
