@@ -1,7 +1,5 @@
-#conteneur{
-    display:flex;
-    flex-wrap: wrap; /* Pour qu'ils aillent à la ligne */
-    justify-content: space-around; /* Pour qu'il y ait des espaces jolis */
+#recipe_link {
+    background: red;
 }
 
 a:link{
@@ -21,7 +19,21 @@ a.recipe_link:link {
 
     text-align: center;
     text-decoration: none; /* Pour ne pas souligner */
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.recipe_link {
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 400px){
+    a.recipe_link {
+        width: 10px;
+        height: 10px;
+    }
 }
 
 a.recipe_link:visited {
