@@ -1,2 +1,4 @@
 # AdventCalendar
-Pour accéder à mon calendrier de l'avent spécial cuisine, cliquer sur ce lien : https://lilianbernot.github.io/AdventCalendar/ !
+
+HTML food Advent Calendar!
+To access to my special food Advent Calendar, click on this link : https://lilianbernot.github.io/AdventCalendar/ !
